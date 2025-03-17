@@ -1,12 +1,35 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features
 
-Currently, two official plugins are available:
+### 1. Flashcard Creation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Card Types**: Standard Front and Back Text
+- **Bulk Import**: Import flashcards from CSV or spreadsheets
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 3. Deck Management
+
+- **Deck Organization**: Tags and categories for deck management
+- - **Deck Organization**: Create and delete decks
+
+
+### 4. User Interface & Experience
+
+- **Web Sync**: Seamless synchronization across web browsers
+
+### 5. Accessibility
+- **Customizable UI**: Font sizes, color contrast, and other accessibility options
+
+## Technical Requirements
+- **Database**: Psql for user and flashcard data
+- **Security**: End-to-end encryption for user data
+
+## Getting Started
+
+### Prerequisites
+
+Ensure you have the following installed:
+
+- Node.js (v16+)
+- npm or yarn (package manager)
+
